@@ -1,0 +1,22 @@
+Start training model... 
+
+epoch: 1
+train time:  0 m 7 s, loss: 6.035, PPL: 417.874
+valid time: 0 m 1 s, loss: 6.064, PPL: 429.920
+
+epoch: 2
+train time:  0 m 8 s, loss: 5.626, PPL: 277.568
+valid time: 0 m 1 s, loss: 4.847, PPL: 127.359
+
+epoch: 3
+train time:  0 m 8 s, loss: 4.387, PPL: 80.406
+valid time: 0 m 1 s, loss: 3.108, PPL: 22.381
+
+epoch: 4
+train time:  0 m 7 s, loss: 3.335, PPL: 28.077
+valid time: 0 m 1 s, loss: 2.933, PPL: 18.792
+
+epoch: 5
+train time:  0 m 8 s, loss: 3.141, PPL: 23.116
+valid time: 0 m 1 s, loss: 2.941, PPL: 18.926
+
