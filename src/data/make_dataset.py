@@ -91,9 +91,7 @@ def iterators_and_fields(path_to_data,
     train_data, valid_data, test_data = data[0], data[1], data[2]
     SRC, TRG = fields
     logger.info(f"Try to build iterators...")
-    train_iterator, valid_iterator, test_iterator = BucketIterator.splits((train_data,
-                                                                           valid_data,
-                                                                           test_data),
+    train_iterator, valid_iterator, test_iterator = BucketIterator.splits((train_data, valid_data, test_data),
                                                                            batch_size = batch_size,
                                                                            sort_key=_len_sort_key,
                                                                            device = device

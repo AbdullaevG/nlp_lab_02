@@ -2,6 +2,8 @@ import torch
 import torch.nn as nn
 import random
 
+device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+
 
 class Encoder(nn.Module):
     def __init__(self, input_dim, emb_dim, hid_dim, n_layers, dropout):
@@ -67,7 +69,7 @@ class Decoder(nn.Module):
         input_ = input_.unsqueeze(0)  # input_=[1, batch_size]
         embedding = self.embedding(input_)
         # embedding = [1, batch_size, emb_dim]
-        output, (hidden, cell) = self.rnn(embedding)
+        output, (hidden, cell) = self.rnn(embedding, (hidden, cell))
         # output = [1, batch_size, hid_size], hidden,= [num_layers*num_directions, batch_size, hid_size]
         logits = self.fc(output.squeeze(0))
         # logits = [batch_size, trg_vocab_len]
@@ -75,18 +77,19 @@ class Decoder(nn.Module):
 
 
 class Seq2Seq(nn.Module):
-    def __init__(self, encoder, decoder):
+    def __init__(self, encoder, decoder, device=device):
         super().__init__()
 
         self.enc = encoder
         self.dec = decoder
+        self.device = device
 
 
     def forward(self, src, trg, teacher_forcing_ratio):
         batch_size = trg.shape[1]
         max_len = trg.shape[0]
         trg_vocab_size = self.dec.output_dim
-        outputs = torch.zeros(max_len, batch_size, trg_vocab_size)
+        outputs = torch.zeros(max_len, batch_size, trg_vocab_size).to(self.device)
         h_pred, c_pred = self.enc(src)
 
         input_ = trg[0, :]  # first token is <sos>
@@ -99,6 +102,37 @@ class Seq2Seq(nn.Module):
             input_ = (trg[t] if teacher_force else top1)
 
         return outputs
+
+
+def init_weights(model):
+    for name, param in model.named_parameters():
+        nn.init.uniform_(param, -0.08, 0.08)
+
+
+def base_seq2seq(enc_inp_dim,
+                 dec_out_dim,
+                 enc_emb_dim,
+                 dec_emb_dim,
+                 enc_hid_dim,
+                 dec_hid_dim,
+                 enc_dropout,
+                 dec_dropout,
+                 n_layers,
+                 save_path):
+    encoder = Encoder(enc_inp_dim, enc_emb_dim, enc_hid_dim, n_layers, enc_dropout)
+    decoder = Decoder(dec_out_dim, dec_emb_dim, dec_hid_dim, n_layers, dec_dropout)
+    seq2seq = Seq2Seq(encoder, decoder)
+    seq2seq.apply(init_weights)
+    seq2seq.to(device)
+
+    return seq2seq, save_path
+
+
+
+
+
+
+
 
 
 def base_seq2seq(enc_inp_dim,
@@ -114,5 +148,5 @@ def base_seq2seq(enc_inp_dim,
     encoder = Encoder(enc_inp_dim, enc_emb_dim, enc_hid_dim, n_layers, enc_dropout)
     decoder = Decoder(dec_out_dim, dec_emb_dim, dec_hid_dim, n_layers, dec_dropout)
 
-    seq2seq = Seq2Seq(encoder, decoder)
+    seq2seq = Seq2Seq(encoder, decoder).to(device)
     return seq2seq, save_path

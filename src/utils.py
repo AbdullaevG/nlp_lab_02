@@ -30,11 +30,7 @@ def get_bleu(model, test_iterator, trg_vocab, logging_file):
     original_text = []
     generated_text = []
     model.eval()
-    logging.basicConfig(filename=logging_file,
-                        filemode='w',
-                        format='%(message)s',
-                        level=logging.INFO,
-                        force=True)
+
     with torch.no_grad():
         for i, batch in tqdm.tqdm(enumerate(test_iterator)):
             src = batch.src
@@ -47,13 +43,11 @@ def get_bleu(model, test_iterator, trg_vocab, logging_file):
 
         score = corpus_bleu([[text] for text in original_text], generated_text) * 100
     i = 0
-    for original, translated  in zip(original_text, generated_text):
-        if i > 10:
-            break
-        else:
-            logging.info(" ".join(original) + "\t" + " ".join(translated) + "\n")
-        i += 1
-
+    with open(logging_file, "w", encoding="utf-8") as file:
+        for original, translated  in zip(original_text, generated_text):
+            i += 1
+            file.write(f"src: {' '.join(original)} \n")
+            file.write(f"trg: {' '.join(translated)} \n")
 
     return score
 
