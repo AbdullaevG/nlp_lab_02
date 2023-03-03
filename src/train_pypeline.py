@@ -54,9 +54,9 @@ def train_pipeline(config_path: str, report_file: str, translated_exams_file: st
 @click.argument('config_path', default='configs/train_config.yml')
 @click.argument('report_file', default='reports/baseline.log')
 @click.argument('translated_exams_file', default='reports/baseline_translated_exams.txt')
-def train_pipeline_command(config_path: str, report_file: str):
+def train_pipeline_command(config_path: str, report_file: str, translated_exams_file: str):
     """ Make start for terminal """
-    train_pipeline(config_path, report_file)
+    train_pipeline(config_path, report_file, translated_exams_file)
 
 
 if __name__ == '__main__':
