@@ -1,0 +1,212 @@
+src: a 1 - minute walk from train station , hotel offers western - style rooms with free internet and wifi access . 
+trg:  
+src: located , the is a 17 - minute drive to , a 22 - minute drive to and a 40 - minute drive to . 
+trg:  
+src: offering , elegant rooms and a 2 restaurant , is less than 10 minutes ’ drive from ’ s centre . 
+trg:  
+src: and café coffee are a 10 - minute drive from the hotel , and the is a 40 - minute drive away . 
+trg:  
+src: located 500 metres from church of the on in saint , this apartment features free wifi . the apartment is metres from palace . 
+trg:  
+src: the property is well for horse - riding , and , as well as diving and golf at the - golf club . 
+trg:  
+src: located in the of de , the hotel you to in equipped with - and air conditioning . 
+trg:  
+src: from the property , the and of are 2 . 3 miles away and train station is a 5 - minute walk to the . 
+trg:  
+src: featuring a well - garden , offers luggage storage and car facilities . a tour desk and centre are also . 
+trg:  
+src: away peaceful nature surroundings , great spa resort features a hot spring bath and furnished with . 
+trg:  
+src: is 8 km from city centre and 10 km from beach . is km away . 
+trg:  
+src: offering an outdoor pool , barbecue and sun terrace , is set in in the mediterranean region region . 
+trg:  
+src: some units are air conditioned and include a seating area with a flat - screen tv . some units also have a kitchen , equipped with a dishwasher . 
+trg:  
+src: bus and station is only 5 minutes away on foot , and can be reached in less than a 5 - minute walk . 
+trg:  
+src: offering a restaurant , hotel apartment offers self - catering accommodation . free wifi access is available in all areas . 
+trg:  
+src: this - hotel is located 3 km from central train station and 5 minutes ’ drive from city centre . 
+trg:  
+src: it 15 minutes to drive to train station , from which you can to international airport by . 
+trg:  
+src: as well as , and are within 15 minutes . 
+trg:  
+src: the property is within a 10 - minute walk of , and . 
+trg:  
+src: it features a luxury spa centre and rooms with an tv and free wifi access . 
+trg:  
+src: located in , service apartment marina offers an outdoor swimming pool and a fitness centre . 
+trg:  
+src: an array of activities can be enjoyed on site or in the surroundings , including hiking . 
+trg:  
+src: staff at can provide on to in and . 
+trg:  
+src: an array of activities can be enjoyed on site or in the surroundings , including hiking . 
+trg:  
+src: is 2 km from and the palace , and 4 km from the train station . 
+trg:  
+src: each room comes with satellite tv , a minibar and a bathroom with a hairdryer and a shower or a tub . 
+trg:  
+src: the ’ is accessible within a short drive and airport is 3 km away . 
+trg:  
+src: each room comes with satellite tv , a minibar and a bathroom with a hairdryer and a shower or a tub . 
+trg:  
+src: served in the conservatory - style dining room with panoramic views , continental or are available each morning . 
+trg:  
+src: ' s is 1 . 5 km , and city centre is 2 km from the property . 
+trg:  
+src: train station is 300 metres away , with a high - service and to airport . 
+trg:  
+src: featuring modern thai décor , guest rooms at the hotel have attached bathrooms with hot shower facilities . each room is equipped with a tv and minibar . 
+trg:  
+src: the centre of le , home to the château de , is within easy . 
+trg:  
+src: appartement in is located just 500 metres from the beach and features a terrace and garden . 
+trg:  
+src: the centre of le , home to the château de , is within easy . 
+trg:  
+src: de ’ , with its and historic food is 300 metres away . 
+trg:  
+src: the lounge offers and various dishes in a buffet or à la carte style . 
+trg:  
+src: balcony on lodge is just a 3 - minute walk from station . 
+trg:  
+src: each room at hotel comes with a tv with cable channels and a private bathroom with a shower . 
+trg:  
+src: de ’ , with its and historic food is 300 metres away . 
+trg:  
+src: the property is situated in a location to such as and . 
+trg:  
+src: is 22 minutes by car and is a - minute drive . 
+trg:  
+src: it features a swimming pool , free wi - fi and a buffet restaurant . 
+trg:  
+src: a buffet breakfast is available in the hotel ’ s bright dining room , which features floor - to - . 
+trg:  
+src: an , ironing , coffee - tea - facilities and desk . 
+trg:  
+src: to the surrounding countryside will find the nature is only 8 km away . 
+trg:  
+src: hot park park is km away . 
+trg:  
+src: staff at the 24 - hour front desk guests with services such as and car , as well as laundry services which include dry cleaning . 
+trg:  
+src: rooms feature views of the swimming pool or the garden , while some also offer a private terrace . 
+trg:  
+src: some rooms are fitted with traditional , while have western . 
+trg:  
+src: the golf and the ski area are both 7 km away . 
+trg:  
+src: hotel is situated in tbilisi , a 3 - minute walk away from saint trinity church . 
+trg:  
+src: guests have access to free wifi in all areas and free public parking is available on site . 
+trg:  
+src: a shuttle to airport , just 30 minutes ’ drive , is available on request . 
+trg:  
+src: sun lake hotel has a centre with facilities . 
+trg:  
+src: featuring a shower , private bathrooms also come with slippers and towels . 
+trg:  
+src: all apartments have a private furnished balcony and a kitchen with dining area . 
+trg:  
+src: offering free wifi throughout , is a self - catering apartment located in . 
+trg:  
+src: house comfortable rooms with a cable tv . 
+trg:  
+src: area activities include hiking and day trips the golden . 
+trg:  
+src: the gym ’ s fitness can and help guests their . 
+trg:  
+src: the spacious , rooms feature floors and large . 
+trg:  
+src: this rustic guest house is set in la ’ s old town . 
+trg:  
+src: mountain and hiking are located a short from the hotel . 
+trg:  
+src: at guests will find barbecue and laundry facilities . 
+trg:  
+src: at suite location you will find a garden and a terrace . 
+trg:  
+src: a daily breakfast is offered which guests can enjoy in the bright breakfast area , also with lake views . 
+trg:  
+src: you can engage in various activities , such as cycling , fishing and hiking . 
+trg:  
+src: airport is located 1 . 5 km from the property . 
+trg:  
+src: each has a tv and a private bathroom with shower . 
+trg:  
+src: each has a tv and a private bathroom with shower . 
+trg:  
+src: park is within a 5 - minute walk of the property . 
+trg:  
+src: it offers comfortable accommodation with free wi - fi and a private balcony . 
+trg:  
+src: hotel the bay of and . 
+trg:  
+src: park is within a 5 - minute walk of the property . 
+trg:  
+src: all units also include a private bathroom with shower equipped with a hairdryer . 
+trg:  
+src: a of and bars within . 
+trg:  
+src: it of food including and . 
+trg:  
+src: and are also located in the surroundings of the accommodation . 
+trg:  
+src: the accommodation features a large garden and a shared lounge with tv . 
+trg:  
+src: guests enjoy good town . 
+trg:  
+src: some come with a balcony and a mountain view . 
+trg:  
+src: at you will find a garden . 
+trg:  
+src: in the surrounding area it is also to find a of restaurants and . 
+trg:  
+src: from and to the are available for an . 
+trg:  
+src: free wifi and private parking are also available . 
+trg:  
+src: lake and are both an 8 - minute drive away . 
+trg:  
+src: staff can boat trips the of . 
+trg:  
+src: public parking is on site at an . 
+trg:  
+src: bed linen and towels are included . 
+trg:  
+src: is km from villa . 
+trg:  
+src: a fitness centre and swimming pool are available and free of . 
+trg:  
+src: there is also a kitchen , fitted with an oven and fridge . 
+trg:  
+src: at apartment you will find a garden . 
+trg:  
+src: all rooms offer garden views . 
+trg:  
+src: the kitchen includes a dishwasher and oven . 
+trg:  
+src: this property offers free parking . 
+trg:  
+src: a can be at an . 
+trg:  
+src: a continental breakfast is served every morning . 
+trg:  
+src: private parking is available on site . 
+trg:  
+src: the guest house also offers bike and car . 
+trg:  
+src: free wifi is provided . 
+trg:  
+src: are also available on request . 
+trg:  
+src: the rooms here will provide you with a seating area . 
+trg:  
+src: bed linen is provided . 
+trg:  
+src: various restaurants can be found in the . 
+trg:  
