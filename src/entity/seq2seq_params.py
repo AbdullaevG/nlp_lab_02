@@ -3,6 +3,7 @@ from dataclasses import dataclass, field
 @dataclass
 class Seq2SeqParams:
     """Structure for data parameters"""
+    model_type: str = field(default="seq2seq")
     enc_emb_dim: int = field(default=4)
     dec_emb_dim: int = field(default=4)
     enc_hid_dim: int = field(default=8)

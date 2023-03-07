@@ -109,7 +109,8 @@ def init_weights(model):
         nn.init.uniform_(param, -0.08, 0.08)
 
 
-def base_seq2seq(enc_inp_dim,
+def base_seq2seq(model_type,
+                 enc_inp_dim,
                  dec_out_dim,
                  enc_emb_dim,
                  dec_emb_dim,
@@ -125,28 +126,4 @@ def base_seq2seq(enc_inp_dim,
     seq2seq.apply(init_weights)
     seq2seq.to(device)
 
-    return seq2seq, save_path
-
-
-
-
-
-
-
-
-
-def base_seq2seq(enc_inp_dim,
-                 dec_out_dim,
-                 enc_emb_dim,
-                 dec_emb_dim,
-                 enc_hid_dim,
-                 dec_hid_dim,
-                 enc_dropout,
-                 dec_dropout,
-                 n_layers,
-                 save_path):
-    encoder = Encoder(enc_inp_dim, enc_emb_dim, enc_hid_dim, n_layers, enc_dropout)
-    decoder = Decoder(dec_out_dim, dec_emb_dim, dec_hid_dim, n_layers, dec_dropout)
-
-    seq2seq = Seq2Seq(encoder, decoder).to(device)
     return seq2seq, save_path
