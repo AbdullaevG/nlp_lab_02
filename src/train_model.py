@@ -79,7 +79,8 @@ def train_model(model,
         valid_loss, valid_time = step(model, optimizer, criterion, clip, valid_iterator, trg_vocab, 0, phase="valid")
 
         if valid_loss < best_loss:
-            best_ppl = np.exp(valid_loss)
+            best_loss = valid_loss
+            best_ppl = np.exp(best_loss)
             torch.save(model.state_dict(), best_model_path)
 
         logger.info(
