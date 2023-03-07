@@ -13,7 +13,7 @@ seq2seqparams:
   enc_dropout: 0.35
   dec_dropout: 0.35
   n_layers: 2
-  save_path: "./src/models/saved_states/seq2seq_attention.pt"
+  save_path: "./src/models/seq2seq_attention.pt"
 trainparams:
   clip: 1
   num_epochs: 20
