@@ -1,141 +1,82 @@
 Start training model...
 
 epoch: 1
-313it [01:42,  3.05it/s]
-59it [00:06,  8.56it/s]
 train time: 1 m 43 s, loss: 5.274, PPL: 195.186
 valid time: 0 m 7 s, loss: 6.733, PPL: 839.338
 
 epoch: 2
-
-313it [01:39,  3.14it/s]
-59it [00:06,  8.71it/s]
 train time: 1 m 40 s, loss: 4.373, PPL: 79.305
 valid time: 0 m 7 s, loss: 5.359, PPL: 212.554
 
 epoch: 3
-
-313it [01:40,  3.12it/s]
-59it [00:06,  8.78it/s]
 train time: 1 m 40 s, loss: 3.928, PPL: 50.791
 valid time: 0 m 7 s, loss: 5.122, PPL: 167.625
 
 epoch: 4
-
-313it [01:40,  3.13it/s]
-59it [00:06,  8.83it/s]
 train time: 1 m 40 s, loss: 3.639, PPL: 38.058
 valid time: 0 m 7 s, loss: 4.987, PPL: 146.513
 
 epoch: 5
-
-313it [01:39,  3.14it/s]
-59it [00:06,  8.77it/s]
 train time: 1 m 40 s, loss: 3.457, PPL: 31.722
 valid time: 0 m 7 s, loss: 4.836, PPL: 125.970
 
 epoch: 6
-
-313it [01:40,  3.11it/s]
-59it [00:07,  8.05it/s]
 train time: 1 m 41 s, loss: 3.314, PPL: 27.486
 valid time: 0 m 7 s, loss: 4.735, PPL: 113.895
 
 epoch: 7
-
-313it [01:39,  3.14it/s]
-59it [00:06,  8.83it/s]
 train time: 1 m 40 s, loss: 3.181, PPL: 24.077
 valid time: 0 m 7 s, loss: 4.709, PPL: 110.905
 
 epoch: 8
-
-313it [01:40,  3.11it/s]
-59it [00:06,  8.84it/s]
 train time: 1 m 41 s, loss: 3.037, PPL: 20.847
 valid time: 0 m 7 s, loss: 4.673, PPL: 106.989
 
 epoch: 9
-
-313it [01:40,  3.11it/s]
-59it [00:06,  8.84it/s]
 train time: 1 m 41 s, loss: 2.926, PPL: 18.657
 valid time: 0 m 7 s, loss: 4.594, PPL: 98.927
 
 epoch: 10
-
-313it [01:40,  3.12it/s]
-59it [00:06,  8.68it/s]
 train time: 1 m 40 s, loss: 2.856, PPL: 17.396
 valid time: 0 m 7 s, loss: 4.486, PPL: 88.804
 
 epoch: 11
-
-313it [01:40,  3.12it/s]
-59it [00:06,  8.86it/s]
 train time: 1 m 40 s, loss: 2.760, PPL: 15.798
 valid time: 0 m 7 s, loss: 4.599, PPL: 99.411
 
 epoch: 12
-
-313it [01:41,  3.08it/s]
-59it [00:06,  8.91it/s]
 train time: 1 m 42 s, loss: 2.684, PPL: 14.650
 valid time: 0 m 7 s, loss: 4.496, PPL: 89.659
 
 epoch: 13
-
-313it [01:40,  3.12it/s]
-59it [00:06,  8.61it/s]
 train time: 1 m 40 s, loss: 2.607, PPL: 13.555
 valid time: 0 m 7 s, loss: 4.474, PPL: 87.747
 
 epoch: 14
-
-313it [01:39,  3.13it/s]
-59it [00:06,  8.79it/s]
 train time: 1 m 40 s, loss: 2.547, PPL: 12.774
 valid time: 0 m 7 s, loss: 4.485, PPL: 88.652
 
 epoch: 15
-
-313it [01:38,  3.17it/s]
-59it [00:06,  8.96it/s]
 train time: 1 m 39 s, loss: 2.494, PPL: 12.111
 valid time: 0 m 7 s, loss: 4.501, PPL: 90.063
 
 epoch: 16
-
-313it [01:41,  3.09it/s]
-59it [00:06,  8.88it/s]
 train time: 1 m 41 s, loss: 2.426, PPL: 11.315
 valid time: 0 m 7 s, loss: 4.490, PPL: 89.097
 
 epoch: 17
-
-313it [01:39,  3.15it/s]
-59it [00:06,  8.77it/s]
 train time: 1 m 39 s, loss: 2.357, PPL: 10.555
 valid time: 0 m 7 s, loss: 4.526, PPL: 92.384
 
 epoch: 18
-
-313it [01:40,  3.12it/s]
-59it [00:07,  8.41it/s]
 train time: 1 m 40 s, loss: 2.311, PPL: 10.088
 valid time: 0 m 7 s, loss: 4.499, PPL: 89.970
 
 epoch: 19
-
-313it [01:40,  3.13it/s]
-59it [00:06,  8.97it/s]
 train time: 1 m 40 s, loss: 2.250, PPL: 9.487
 valid time: 0 m 7 s, loss: 4.540, PPL: 93.737
 
 epoch: 20
-
-313it [01:41,  3.09it/s]
-59it [00:06,  8.66it/s]
 train time: 1 m 41 s, loss: 2.211, PPL: 9.124
 valid time: 0 m 7 s, loss: 4.670, PPL: 106.697
 
