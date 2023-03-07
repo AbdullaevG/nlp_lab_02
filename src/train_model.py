@@ -70,7 +70,7 @@ def train_model(model,
     f_format = logging.Formatter('%(message)s')
     f_handler.setFormatter(f_format)
     logger.addHandler(f_handler)
-
+    model.to(device)
     logger.info("Start training model... \n")
     for num_epoch in range(num_epochs):
         logger.info(f"epoch: {num_epoch + 1}")
