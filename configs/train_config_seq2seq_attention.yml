@@ -16,6 +16,6 @@ seq2seqparams:
   save_path: "./src/models/seq2seq_attention.pt"
 trainparams:
   clip: 1
-  num_epochs: 20
+  num_epochs: 10
   teacher_forcing_ratio: 0.5
   translated_examples_file: "./reports/seq2seq_attention_generated.txt"
